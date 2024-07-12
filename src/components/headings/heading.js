@@ -2,7 +2,6 @@ const Heading1 =(prop) => {
     const { title="default" } = prop;
     return <h1>{title}</h1>;
 };
-//-----------------------day - 7------------------------------------------
 export default Heading1;
 
 export const Heading2 =() => {
