@@ -9,18 +9,6 @@ import CustomImage from "./components/image/customeimage";
 import Heading1 from "./components/headings/heading";
 import { bagData } from "./components/lists/fruitData"; //----DAY-8----
 const App = () => (
-    // return (
-    // ---------------------day-7---------------------------------------------
-    //         <div>
-    //             <h4>DAY-6</h4>
-    //             <MainHeading/>
-    //             <SecondaryHeading/>
-    //             <UnorderedList/>
-    //             <ListParent/>
-    //             <ProfileComponent></ProfileComponent>
-    //         </div>
-
-    //------------------DAY-8-----------------------------
     <div>
         {/* <ProfileComponent/> */}
         {/* <ListParent/> */}
@@ -45,7 +33,6 @@ const App = () => (
         })}
     </div>
 
-    // );
     );
 
 export default App;
