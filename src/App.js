@@ -9,10 +9,6 @@ const App = () => (
      
   <div>
     <h4>DAY-6</h4>
-    <MainHeading />
-    <SecondaryHeading />
-    <UnorderedList />
-    <ListParent />
     <ProfileComponent></ProfileComponent>
   </div>
 
