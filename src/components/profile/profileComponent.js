@@ -13,6 +13,7 @@ const ProfileComponent = () => {
   <h2>My name is {name}</h2>
   <h2>My salary is {salary}</h2>
   <h2>My mobile is {mobile}</h2>
+  {console.log("hii")}
   <Heading1/>
   <Heading2/>
  </div>
