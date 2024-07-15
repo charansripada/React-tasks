@@ -54,7 +54,6 @@ const App = () => (
     <CustomList list={scientist} />
     <Heading1 title={"Iplteams"} />
     <CustomList list={iplTeams} />
-
     <Heading1 title={Item} />
     <Heading1 title={"Ingredeients required to cook" + Item} />
     <CustomList list={ingredients} />
