@@ -27,8 +27,5 @@ export const bagData=[
         name:"Bag2",
         source:"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
     },
-    {
-        name:"Bag3",
-        source:"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-    },
-]
+
+];
