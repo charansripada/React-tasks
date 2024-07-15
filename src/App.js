@@ -7,7 +7,7 @@ import ListParent from "./components/lists/listParent";
 import ProfileComponent from "./components/profile/profileComponent";
 import CustomImage from "./components/image/customeimage";
 import Heading1 from "./components/headings/heading";
-import { bagData } from "./components/lists/fruitData"; //----DAY-8----
+import { bagData } from "./components/lists/fruitData";
 const App = () => (
     <div>
         {/* <ProfileComponent/> */}
