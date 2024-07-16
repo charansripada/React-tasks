@@ -14,16 +14,16 @@ import { bagData } from "./components/lists/fruitData";
 import Greeting from "./components/greeting/greeting";
 import React from "react";
 
-const students = ["A", "B", "C"];
+const students = ["Shiva", "Bhanu", "Priyatham"];
 const App = () => (
   <div>
-    {students.map((eachStudent, index) => (
+    {/* {students.map((eachStudent, index) => (
       <React.Fragment key={index}>
         <Greeting>
           <Card>{eachStudent}</Card>
         </Greeting>
       </React.Fragment>
-    ))}
+    ))} */}
     <CustomButton text="hello world" bgColor={"green"} width={100} />
   </div>
 );
