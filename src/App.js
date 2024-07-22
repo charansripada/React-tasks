@@ -8,7 +8,7 @@ import MainHeading, {
 import UnorderedList from "./components/lists/unorderedList";
 import ListParent from "./components/lists/listParent";
 import ProfileComponent from "./components/profile/profileComponent";
-import CustomImage from "./components/image/customeimage";
+import CustomImage from "./components/image/customImage";
 import Heading1 from "./components/headings/heading";
 import { bagData } from "./components/lists/fruitData";
 import Greeting from "./components/greeting/greeting";
@@ -20,7 +20,13 @@ import MyComponent from "./components/boostrap/my-component";
 import CustomSpinner from "./components/spinner/custom-spinner";
 import CustomList from "./components/customList/custom-list";
 import ConditionalRendering from "./components/conditional-rendering/condition";
-import CustomClassButton from "./components/class-component/button";
+import CustomClassButton from "./components/class-components/button";
+import SubsribeComponent from "./components/class-components/subscribe-button";
+import TodoComponent from "./components/class-components/todo";
+import Counter from "./components/class-components/counter";
+import SquareComponent from "./components/class-components/square-task";
+import IplTeams from "./components/class-components/iplTeams";
+import FetchExample from "./components/class-components/fetchExample";
 
 const students = ["Shiva", "Bhanu", "Priyatham"];
 const vegetable = ["tomato", "potato"];
@@ -42,7 +48,13 @@ const instructions = [
 ];
 const App = () => (
   <div>
-    <CustomClassButton />
+    <FetchExample />
+    {/* <IplTeams />
+    <Counter />
+    <SquareComponent /> */}
+    {/* <TodoComponent /> */}
+    {/* <SubsribeComponent /> */}
+    {/* <CustomClassButton /> */}
     {/* <ConditionalRendering /> */}
     {/* <Heading1 title={"Fruites"} />
     <CustomList list={["apple", "watermelon"]} />
