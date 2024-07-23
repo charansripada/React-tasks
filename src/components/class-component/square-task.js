@@ -1,6 +1,6 @@
 import { Component } from "react";
 // import "./sqaure.css";
-
+import "./square.css";
 class SquareComponent extends Component {
   state = {
     sqaureArray: [],
